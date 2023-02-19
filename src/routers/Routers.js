@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import Gallery from '../components/Gallery/Gallery'
 import About from '../pages/About/About'
 import Contact from '../pages/Contact/Contact'
@@ -12,7 +12,8 @@ import Resevation from '../components/resevation/Resevation'
 const Routers = () => {
   return (
     <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Navigate to='home' />} />
+        <Route path='/home' element={<Home />} />
         <Route path='/Menu-Food' element={<Home />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/events' element={<Events />} />
