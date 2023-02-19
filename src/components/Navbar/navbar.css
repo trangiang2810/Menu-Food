@@ -27,6 +27,7 @@
 }
 .nav__wrapper .nav__menu {
   padding-top: 0.5rem;
+  z-index: 9999999999999;
   position: fixed;
   right: 2rem;
   display: flex;
