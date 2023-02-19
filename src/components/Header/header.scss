@@ -1,6 +1,6 @@
 header{
     overflow: hidden;
-    padding: 2rem 4rem;
+    padding: 4rem 4rem;
     .header{
         display: flex;
         flex-direction: row-reverse;
@@ -17,7 +17,7 @@ header{
             align-items: center;
             gap: 16%;
             img{
-                height: 30vh
+                height: 35vh
              }  
 
             .header__item  {
@@ -84,7 +84,7 @@ header{
                 align-items: center;
                 gap: 10%;
                 img{
-                    height: 22vh
+                    height: 25vh
                  }  
     
                 .header__item  {
@@ -120,6 +120,8 @@ header{
 
 @media screen and (max-width: 990px) {
     header{
+    padding: 4rem 3rem;
+
         .header{
             display: flex;
             flex-direction: column;
@@ -178,6 +180,7 @@ header{
 
 @media screen and (max-width: 768px) {
     header{
+        
         .service{
             padding:10% 0;
             display: grid;
@@ -202,5 +205,12 @@ header{
     
             }
         }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    header{
+        padding: 4rem 1.5rem;
     }
 }

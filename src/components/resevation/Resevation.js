@@ -27,7 +27,7 @@ const Resevation = () => {
 
   return (
     <section id="resevation" className='section__resevation'>
-        <h1 className='resevation__title'>Reservation</h1>
+        <h1 className='title1'>Reservation</h1>
         <form onSubmit={handleSubmit} className='resevation__wrapper-input'>
           <div className='ip__buy'>
             <input className={error && name.length<=0 ?'er' : ''} onChange={e=>setName(e.target.value)} type="text" placeholder='Name' />

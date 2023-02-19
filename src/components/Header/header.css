@@ -1,6 +1,6 @@
 header {
   overflow: hidden;
-  padding: 2rem 4rem;
+  padding: 4rem 4rem;
 }
 header .header {
   display: flex;
@@ -18,7 +18,7 @@ header .header .header__wrapper {
   gap: 16%;
 }
 header .header .header__wrapper img {
-  height: 30vh;
+  height: 35vh;
 }
 header .header .header__wrapper .header__item h1 {
   font-size: 3.2rem;
@@ -68,7 +68,7 @@ header .service .service-item span {
     gap: 10%;
   }
   header .header .header__wrapper img {
-    height: 22vh;
+    height: 25vh;
   }
   header .header .header__wrapper .header__item h1 {
     font-size: 2.6rem;
@@ -85,6 +85,9 @@ header .service .service-item span {
   }
 }
 @media screen and (max-width: 990px) {
+  header {
+    padding: 4rem 3rem;
+  }
   header .header {
     display: flex;
     flex-direction: column;
@@ -147,5 +150,10 @@ header .service .service-item span {
   header .service .service-item span {
     font-size: 1.1rem;
     font-weight: 700;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    padding: 4rem 1.5rem;
   }
 }/*# sourceMappingURL=header.css.map */

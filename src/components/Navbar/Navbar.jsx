@@ -24,7 +24,7 @@ const Navbar = () => {
         display: 'ABOUT US'
     },
     {
-      path: '/pages',
+      path: '/events',
       display: 'PAGES'
   },
   {
@@ -42,7 +42,7 @@ const Navbar = () => {
             <div>
               <Link to='/'>
                 <img className='logo1' src={logo1} alt="" />
-                <img src={logo2} alt="img" />
+                <img className='logo2' src={logo2} alt="img" />
               </Link>
             </div>
             <Link to='/'>

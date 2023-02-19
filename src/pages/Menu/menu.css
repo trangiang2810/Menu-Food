@@ -8,6 +8,9 @@
 .link p :first-child:hover {
   color: red;
 }
+.link p :last-of-type span {
+  font-weight: 700;
+}
 
 .menu__container {
   margin: 3rem 4rem;

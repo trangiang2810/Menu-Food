@@ -1,11 +1,12 @@
 .nav__wrapper{
     align-items: center;
-    display: flex;
-    padding: 2rem 2.5rem 0 ;
+    padding: 2rem 2rem 0 ;
     justify-content: space-between;
 
     .logo{
-        position: relative;
+        // position: relative;
+        position: fixed;
+        z-index: 9999999999999;
         cursor: pointer;
         display: flex;
         align-items: center;
@@ -32,6 +33,9 @@
         
     }
     .nav__menu{
+        padding-top: 0.5rem;
+        position: fixed;
+        right: 2rem;
         display: flex;
         gap: 2rem;
         font-weight: 800;
@@ -40,6 +44,7 @@
             padding-bottom: 0.6rem;
         }
         li{
+            font-size: 1.1rem;
             padding-bottom: 0.6rem;
             &:hover{
                 background: url(../../assets/img/line.png) no-repeat center bottom;
@@ -47,6 +52,9 @@
         }
     }
     .btn__list{
+        position: fixed;
+        z-index: 9999999999999;
+        right: 1rem;
         font-size: 2rem;
         display: none;
         cursor: pointer;
@@ -84,6 +92,7 @@
                 padding-bottom: 0.6rem;
             }
             li{
+                font-size: 1.8rem;
                 padding-bottom: 0.6rem;
 
                 &:hover{
@@ -99,16 +108,32 @@
 
 
 
-
-
 @media screen and (max-width: 540px) {
     .nav__wrapper{
-        align-items: center;
-        display: flex;
-        padding: 1.3rem 1rem 0 ;
-        .logo__item{
-            p{
-               display: none;      
+    padding: 1rem 1.5rem 0 ;
+
+        .logo{
+            // position: relative;
+            position: fixed;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            .logo1{
+                position: absolute;
+                width: 3rem;
+            }
+            .logo2{
+                width: 3rem;
+                
+            }
+            .logo__item{
+                h1{
+                    font-size: 1.3rem;
+                }
+                p{
+                   display: none;      
+                }
             }
         }
     }
