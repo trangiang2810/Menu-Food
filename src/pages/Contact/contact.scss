@@ -1,0 +1,84 @@
+.contact{ 
+    text-align: center;
+    .map{
+        padding: 2rem 0;
+      iframe{
+        width: 85%;
+        height: 45vh;
+      }
+    }
+    .title2{
+        margin: 2% 0;
+        font-size: 2.3rem;
+        font-family: 'Merienda', cursive;
+        
+
+    }
+    .contact__write{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 50%;
+        gap: 1rem;
+        input{
+            border-radius: 7px;
+            padding: 1.2rem;
+        }
+        :last-child{
+            padding:  0.6rem;
+            min-height: 6rem;
+            border-radius: 7px;
+
+        }
+    }
+    .check{
+        padding-top: 1rem;
+        color: rgb(167, 166, 166);
+        gap: 0.5rem;
+        display: flex;
+        justify-content: center;
+        font-family: '__Source Sans Pro_5';
+    }
+}
+
+.er::placeholder{
+    color: red;
+}
+@media screen and (max-width: 768px) {
+    .contact{ 
+        .map{
+            padding: 0rem 0 1rem;
+          iframe{
+            width: 80%;
+            // height: 35vh;
+          }
+        }
+        .contact__write{
+        width: 70%;
+
+            input{
+                padding: 1rem;
+            }
+            :last-child{
+                min-height: 5rem;
+    
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .contact{ 
+        .contact__write{
+            width: 80%;
+
+            input{
+                padding: 0.8rem;
+            }
+            :last-child{
+                min-height: 4rem;
+    
+            }
+        }
+    }
+}

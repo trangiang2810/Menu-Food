@@ -1,0 +1,59 @@
+.ed__container{
+    max-width: 1200px;
+    margin: auto;
+    padding:0 10%;
+    .ed__wrapper{
+        background: #fff;
+        border-radius: 30px;
+        overflow: hidden;
+        // padding: 2rem;
+        .ed__banner{
+            width: 100%;
+        }
+        .ed__item{
+            line-height: 1.5rem;
+            padding: 6%;
+            .ed__item-content{
+                
+                // padding: 4rem 0;
+                p{
+                    color: gray;
+                    font-size: 0.7rem;
+                }
+                .content-title{
+                    padding-bottom: 0.4rem;
+                    font-size: 1.5rem;
+                }
+                .content-children{
+                    margin: auto;
+                    justify-content: center;
+                    display: flex;
+                    margin-top: 7%;
+
+                    :last-child{
+                        font-size: 1.2rem;
+                        color: rgb(75, 69, 69);
+
+                    }
+               }
+            }
+            .ed__intro{
+                padding-top: 1.5rem;
+                h5{
+                    font-size: 1.4rem;
+                    padding-bottom: 0.5rem;
+                }
+                .ed__check{
+                    padding-top: 0.2rem;
+                    gap: 0.5rem;
+                    align-items: center;
+                    margin: auto;
+                    display: flex;
+                    :first-child{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.ed__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 10%;
+}
+.ed__container .ed__wrapper {
+  background: #fff;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.ed__container .ed__wrapper .ed__banner {
+  width: 100%;
+}
+.ed__container .ed__wrapper .ed__item {
+  line-height: 1.5rem;
+  padding: 6%;
+}
+.ed__container .ed__wrapper .ed__item .ed__item-content p {
+  color: gray;
+  font-size: 0.7rem;
+}
+.ed__container .ed__wrapper .ed__item .ed__item-content .content-title {
+  padding-bottom: 0.4rem;
+  font-size: 1.5rem;
+}
+.ed__container .ed__wrapper .ed__item .ed__item-content .content-children {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  margin-top: 7%;
+}
+.ed__container .ed__wrapper .ed__item .ed__item-content .content-children :last-child {
+  font-size: 1.2rem;
+  color: rgb(75, 69, 69);
+}
+.ed__container .ed__wrapper .ed__item .ed__intro {
+  padding-top: 1.5rem;
+}
+.ed__container .ed__wrapper .ed__item .ed__intro h5 {
+  font-size: 1.4rem;
+  padding-bottom: 0.5rem;
+}
+.ed__container .ed__wrapper .ed__item .ed__intro .ed__check {
+  padding-top: 0.2rem;
+  gap: 0.5rem;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+.ed__container .ed__wrapper .ed__item .ed__intro .ed__check :first-child {
+  color: red;
+}/*# sourceMappingURL=eventDetails.css.map */

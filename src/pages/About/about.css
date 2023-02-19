@@ -1,0 +1,119 @@
+.section__about {
+  padding: 0 4rem;
+}
+.section__about .link p {
+  justify-content: center;
+  display: flex;
+  gap: 0.6rem;
+  font-size: 0.8rem;
+  padding-bottom: 2rem;
+}
+.section__about .link p :first-child:hover {
+  color: red;
+}
+.section__about .wrapper__intro {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.section__about .wrapper__intro img {
+  display: flex;
+  border-radius: 15% 0 0 15%;
+  width: 50%;
+}
+.section__about .wrapper__intro .wrapper__intro-item {
+  background: #fff;
+  border-radius: 0 15% 15% 0;
+  padding: 3rem;
+  width: 50%;
+}
+.section__about .wrapper__intro .wrapper__intro-item .img__icon {
+  width: auto;
+  height: 2rem;
+}
+.section__about .wrapper__intro .wrapper__intro-item .content h2 {
+  font-family: "Merienda", cursive;
+  margin: 1rem 0 0.5rem;
+}
+.section__about .wrapper__intro .wrapper__intro-item .content span {
+  color: rgb(155, 151, 151);
+  font-family: "Alegreya Sans", sans-serif;
+}
+.section__about .intro-food {
+  padding: 5% 0;
+  text-align: center;
+}
+.section__about .intro-food .line {
+  width: 6rem;
+}
+.section__about .intro-food h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 1rem 0;
+}
+.section__about .intro-food span {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 990px) {
+  .section__about .wrapper__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .section__about .wrapper__intro img {
+    margin: auto;
+    border-radius: 15%;
+    width: 90%;
+  }
+  .section__about .wrapper__intro .wrapper__intro-item {
+    background: none;
+    display: flex;
+    border-radius: 0 15% 15% 0;
+    padding: 2rem 0;
+    gap: 2rem;
+    margin: auto;
+    width: 90%;
+  }
+  .section__about .wrapper__intro .wrapper__intro-item .img__icon {
+    display: none;
+  }
+  .section__about .wrapper__intro .wrapper__intro-item .content span {
+    font-family: "Alegreya Sans", sans-serif;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section__about {
+    padding: 0 3rem;
+  }
+  .section__about .wrapper__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .section__about .wrapper__intro img {
+    margin: auto;
+    border-radius: 15%;
+    width: 100%;
+  }
+  .section__about .wrapper__intro .wrapper__intro-item {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0;
+    padding: 2rem 0;
+    gap: 2rem;
+    margin: auto;
+    width: 100%;
+  }
+  .section__about .wrapper__intro .wrapper__intro-item .img__icon {
+    display: none;
+  }
+  .section__about .wrapper__intro .wrapper__intro-item .content span {
+    font-family: "Alegreya Sans", sans-serif;
+  }
+}/*# sourceMappingURL=about.css.map */

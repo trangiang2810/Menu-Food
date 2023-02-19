@@ -1,0 +1,206 @@
+header{
+    overflow: hidden;
+    padding: 2rem 4rem;
+    .header{
+        display: flex;
+        flex-direction: row-reverse;
+        .header__img1{ 
+            width: 65%; 
+            img{
+                // height: 750px;
+                width: 130%;
+            }
+            
+        }
+         .header__wrapper{
+            display: flex;
+            align-items: center;
+            gap: 16%;
+            img{
+                height: 30vh
+             }  
+
+            .header__item  {
+                h1{
+                    font-size: 3.2rem;
+                    font-family: 'Merienda', cursive;
+                }
+                span{
+                    font-size: 1.4rem;
+                    //  font-weight: 200;
+                    display: flex;
+                    flex-direction: column;
+                    color: rgb(46, 44, 44);
+                    line-height: 33px;
+                    font-family: '__Source Sans Pro_5';
+                    }
+             
+            }
+          
+         
+        }
+        
+    }
+    .service{
+        padding:8% 0;
+        display: grid;
+	    grid-template-columns: repeat(3, minmax(0, 1fr));
+        .service-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            .service-icon{
+                background: url(../../assets/img/ink.png) no-repeat center center ;
+                background-size: contain;
+                padding: 4rem;
+                color: #fff;
+                font-size: 3rem;
+            }
+            span{
+                font-size: 1.2rem;
+                font-weight: 700;
+            }
+
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    header{
+        .header{
+            .header__img1{ 
+                width: 70%; 
+                img{
+                    width: 140%;
+                }
+                
+            }
+             .header__wrapper{
+                display: flex;
+                align-items: center;
+                gap: 10%;
+                img{
+                    height: 22vh
+                 }  
+    
+                .header__item  {
+                    h1{
+                        font-size: 2.6rem;
+                    }
+                    span{
+                        font-size: 1.3rem;
+                        }
+                }
+             
+            }
+            
+        }
+        .service{
+            .service-item{
+                .service-icon{
+                    padding: 3.5rem;
+                    font-size: 2.5rem;
+                }
+                span{
+                    font-size: 1rem;
+                }
+    
+            }
+        }
+    
+    }
+}
+
+
+
+
+@media screen and (max-width: 990px) {
+    header{
+        .header{
+            display: flex;
+            flex-direction: column;
+            .header__img1{ 
+                width:100%; 
+                img{
+                    width: 100%;
+                }
+                
+            }
+            
+             .header__wrapper{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0%;
+                img{
+                    display: none;
+                    transform: rotate(90deg);
+                    height: 293px;
+                    width: 26px;
+
+                    
+                 }  
+    
+                .header__item  {
+                    text-align: center;
+                    h1{
+                        font-size: 2.5rem;
+                    }
+                    span{
+                        font-size: 1.2rem;
+                        }
+                }
+             
+            }
+            
+        }
+        .service{
+            .service-item{
+                .service-icon{
+                    padding: 3.5rem;
+                    font-size: 2.5rem;
+                }
+                span{
+                    font-size: 1rem;
+                }
+    
+            }
+        }
+    
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    header{
+        .service{
+            padding:10% 0;
+            display: grid;
+            gap: 4rem;
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+            .service-item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+                .service-icon{
+                    background: url(../../assets/img/ink.png) no-repeat center center ;
+                    background-size: contain;
+                    padding: 4rem;
+                    color: #fff;
+                    font-size: 3rem;
+                }
+                span{
+                    font-size: 1.1rem;
+                    font-weight: 700;
+                }
+    
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+footer {
+  padding-top: 10%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 0.8rem;
+}
+footer .bookTable {
+  margin: auto;
+  margin: 0 15%;
+}
+footer .bookTable :first-child {
+  font-family: "Merienda", cursive;
+  font-size: 1.7rem;
+}
+footer .bookTable :last-child {
+  font-size: 1.2rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+footer .footer__wrapper {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+footer .footer__wrapper .footer__wrapper-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+footer .footer__wrapper .footer__wrapper-item span {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+footer ul {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  padding: 2rem 0;
+  font-weight: 800;
+}
+footer p {
+  color: gray;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 990px) {
+  footer .footer__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+  footer .footer__wrapper .footer__wrapper-item {
+    margin: auto;
+    gap: 10px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 540px) {
+  footer .bookTable {
+    margin: 0 10%;
+  }
+  footer .bookTable :first-child {
+    font-family: "Merienda", cursive;
+    font-size: 1rem;
+  }
+  footer .footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer__wrapper .footer__wrapper-item {
+    gap: 10px;
+    font-weight: 600;
+  }
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,151 @@
+header {
+  overflow: hidden;
+  padding: 2rem 4rem;
+}
+header .header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+header .header .header__img1 {
+  width: 65%;
+}
+header .header .header__img1 img {
+  width: 130%;
+}
+header .header .header__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16%;
+}
+header .header .header__wrapper img {
+  height: 30vh;
+}
+header .header .header__wrapper .header__item h1 {
+  font-size: 3.2rem;
+  font-family: "Merienda", cursive;
+}
+header .header .header__wrapper .header__item span {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  color: rgb(46, 44, 44);
+  line-height: 33px;
+  font-family: "__Source Sans Pro_5";
+}
+header .service {
+  padding: 8% 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+header .service .service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+header .service .service-item .service-icon {
+  background: url(../../assets/img/ink.png) no-repeat center center;
+  background-size: contain;
+  padding: 4rem;
+  color: #fff;
+  font-size: 3rem;
+}
+header .service .service-item span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) {
+  header .header .header__img1 {
+    width: 70%;
+  }
+  header .header .header__img1 img {
+    width: 140%;
+  }
+  header .header .header__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+  }
+  header .header .header__wrapper img {
+    height: 22vh;
+  }
+  header .header .header__wrapper .header__item h1 {
+    font-size: 2.6rem;
+  }
+  header .header .header__wrapper .header__item span {
+    font-size: 1.3rem;
+  }
+  header .service .service-item .service-icon {
+    padding: 3.5rem;
+    font-size: 2.5rem;
+  }
+  header .service .service-item span {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 990px) {
+  header .header {
+    display: flex;
+    flex-direction: column;
+  }
+  header .header .header__img1 {
+    width: 100%;
+  }
+  header .header .header__img1 img {
+    width: 100%;
+  }
+  header .header .header__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0%;
+  }
+  header .header .header__wrapper img {
+    display: none;
+    transform: rotate(90deg);
+    height: 293px;
+    width: 26px;
+  }
+  header .header .header__wrapper .header__item {
+    text-align: center;
+  }
+  header .header .header__wrapper .header__item h1 {
+    font-size: 2.5rem;
+  }
+  header .header .header__wrapper .header__item span {
+    font-size: 1.2rem;
+  }
+  header .service .service-item .service-icon {
+    padding: 3.5rem;
+    font-size: 2.5rem;
+  }
+  header .service .service-item span {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .service {
+    padding: 10% 0;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  header .service .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  header .service .service-item .service-icon {
+    background: url(../../assets/img/ink.png) no-repeat center center;
+    background-size: contain;
+    padding: 4rem;
+    color: #fff;
+    font-size: 3rem;
+  }
+  header .service .service-item span {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+}/*# sourceMappingURL=header.css.map */

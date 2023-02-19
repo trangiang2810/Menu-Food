@@ -1,0 +1,198 @@
+.section__about{
+    padding: 0 4rem;
+    .link{
+        p{
+            // text-align: center;
+            justify-content: center;
+            display: flex;
+            gap: 0.6rem;
+            font-size: 0.8rem;
+            padding-bottom: 2rem;
+            :first-child{
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+    
+    .wrapper__intro{
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        img{
+            display: flex;
+            border-radius: 15% 0 0 15%;
+            width: 50%;   
+        }
+        .wrapper__intro-item{
+            background: #fff;
+            border-radius: 0 15% 15% 0;
+            padding: 3rem;
+            width: 50%;   
+
+
+            .img__icon{
+                width: auto;
+                height: 2rem;
+            }
+            .content{
+                
+                h2{
+                    font-family: 'Merienda', cursive;
+                    margin: 1rem 0 0.5rem;
+                }
+                span{
+                    color: rgb(155, 151, 151);
+                    font-family: 'Alegreya Sans', sans-serif;
+                }
+            }
+        }
+    }
+
+    .intro-food{
+        padding: 5% 0;
+        text-align: center;
+        .line{
+            width: 6rem;
+        }
+        h2{
+            font-size: 1.3rem;
+            font-weight: 400;
+            padding: 1rem 0;
+        }
+        span{
+            color: gray;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+
+
+
+
+// @media screen and (max-width: 1200px) {
+//     section{
+//     .wrapper__intro{
+//         display: flex;
+//         justify-content: center;
+//         position: relative;
+//         // padding: 0 50%;
+//         img{
+//             border-radius: 15% 0 0 15%;
+//             width: 480px;   
+//         }
+//         .wrapper__intro-item{
+//             background: #fff;
+//             border-radius: 0 15% 15% 0;
+//             padding: 3rem;
+//             width: 450px;
+
+//             // height: 600px;
+
+
+//             .img__icon{
+//                 width: auto;
+//                 height: 2rem;
+//             }
+//             .content{
+                
+//                 h2{
+//                     margin: 1rem 0 0.5rem;
+//                 }
+//                 span{
+//                     color: rgb(155, 151, 151);
+//                     font-family: 'Alegreya Sans', sans-serif;
+//                 }
+//             }
+//         }
+//     }
+//    }
+// }
+
+@media screen and (max-width: 990px) {
+    .section__about{
+        
+        .wrapper__intro{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+            img{
+                margin: auto;
+                border-radius: 15%;
+                width: 90%;   
+            }
+            .wrapper__intro-item{
+                background: none;
+                display: flex;
+                border-radius: 0 15% 15% 0;
+                padding: 2rem 0;
+                gap: 2rem;
+                margin: auto;
+                width: 90%;
+                
+                .img__icon{
+                   display: none;
+                }
+                .content{
+
+                    span{
+                        font-family: 'Alegreya Sans', sans-serif;
+                    }
+                }
+            }
+        }
+    
+    }
+     
+}
+
+
+@media screen and (max-width: 768px) {
+    .section__about{
+    padding: 0 3rem;
+
+        
+        .wrapper__intro{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+            img{
+                margin: auto;
+                border-radius: 15%;
+                width: 100%;   
+            }
+            .wrapper__intro-item{
+                background: none;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                border-radius: 0 ;
+                padding: 2rem 0;
+                gap: 2rem;
+                margin: auto;
+                width: 100%;
+                
+                .img__icon{
+                   display: none;
+                }
+                .content{
+
+                    span{
+                        font-family: 'Alegreya Sans', sans-serif;
+                    }
+                }
+            }
+        }
+    
+    }
+    
+    
+    
+    
+    
+}
+
