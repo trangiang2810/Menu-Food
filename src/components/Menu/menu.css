@@ -13,6 +13,11 @@
 .menu__item .menu__image img {
   border-radius: 20%;
   width: 100%;
+  opacity: 0.85;
+  cursor: pointer;
+}
+.menu__item .menu__image img:hover {
+  opacity: 1;
 }
 .menu__item .menu__image span {
   position: absolute;
