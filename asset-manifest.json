@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Menu-Food/static/css/main.65a7874c.css",
+    "main.css": "/Menu-Food/static/css/main.a4d17e09.css",
     "main.js": "/Menu-Food/static/js/main.b41afd86.js",
     "static/media/bg.png": "/Menu-Food/static/media/bg.6af46057d895b80c3a06.png",
     "static/media/banner.png": "/Menu-Food/static/media/banner.e760b6d420a78c635193.png",
@@ -31,11 +31,11 @@
     "static/media/img_01.jpg": "/Menu-Food/static/media/img_01.ec7c0f3492155208dc56.jpg",
     "static/media/sakura_l.png": "/Menu-Food/static/media/sakura_l.17eb9e6197132bf78937.png",
     "index.html": "/Menu-Food/index.html",
-    "main.65a7874c.css.map": "/Menu-Food/static/css/main.65a7874c.css.map",
+    "main.a4d17e09.css.map": "/Menu-Food/static/css/main.a4d17e09.css.map",
     "main.b41afd86.js.map": "/Menu-Food/static/js/main.b41afd86.js.map"
   },
   "entrypoints": [
-    "static/css/main.65a7874c.css",
+    "static/css/main.a4d17e09.css",
     "static/js/main.b41afd86.js"
   ]
 }
